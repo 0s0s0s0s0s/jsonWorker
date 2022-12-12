@@ -1,0 +1,20 @@
+{
+	"name": "cringedadsepta",
+	"version": "1.0.0",
+	"description": "",
+	"main": "jsonWorker.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/0s0s0s0s0s/jsonWorker.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/0s0s0s0s0s/jsonWorker/issues"
+	},
+	"homepage": "https://github.com/0s0s0s0s0s/jsonWorker#readme"
+}
