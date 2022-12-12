@@ -1,5 +1,5 @@
-const read = require("jsonWorker/src/lib/read");
-const write = require("jsonWorker/src/lib/write");
+const read = require("./read");
+const write = require("./write");
 const errors = require("../err/errors");
 
 /**
