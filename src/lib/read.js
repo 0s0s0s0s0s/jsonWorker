@@ -3,7 +3,7 @@ const errors = require("../err/errors");
 
 /**
  * @param {string} path - is path for file json
- * @returns {Promise<array | object>} is method can return array, object
+ * @returns {Promise<array | object>} is method return array, object
  */
 
 function read(path) {
