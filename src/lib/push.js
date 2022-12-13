@@ -3,8 +3,8 @@ const write = require("./write");
 const errors = require("../err/errors");
 
 /**
- * @param {string} path
- * @param {any} item
+ * @param {string} path - is path for json file
+ * @param {any} item - add item in json-array
  * @param {{replacer?: ((this: any, key: string, value: any) => any) | undefined, space?: string | number | undefined)}} options
  */
 

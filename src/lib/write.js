@@ -2,8 +2,8 @@ const { writeFile } = require("fs/promises");
 const errors = require("../err/errors");
 
 /**
- * @param {string} path
- * @param {object | array} obj
+ * @param {string} path - is path for json file
+ * @param {object | array} obj - is obj in json file
  * @param {{replacer?: ((this: any, key: string, value: any) => any) | undefined, space?: string | number | undefined)}} options
  */
 
