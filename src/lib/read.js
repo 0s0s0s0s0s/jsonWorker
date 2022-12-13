@@ -17,9 +17,7 @@ function read(path) {
 		}
 
 		readFile(path, { encoding: "utf-8" })
-			.then(data => {
-				res(JSON.parse(data));
-			})
+			.then(data => res(JSON.parse(data)))
 			.catch(rej);
 	});
 }
